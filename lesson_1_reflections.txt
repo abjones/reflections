@@ -1,0 +1,58 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Automatically identified the segments of code that changed, providing a 
+    quick reference for where to look. Bugs, while still lost in the amount of 
+    changed code, could be found in a smaller sample of changes vice comparing 
+    the entire files line by line.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Quickly revert changes to previous versions. Identify bugs and changes 
+    across multiple user files that all contain updates to common code. Track
+    development history as new functions are added, modified, and deleted.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Manual creation ensures change logs that identify what was changed (or at 
+    least intended to be changed). Automatic versions will be difficult to 
+    understand the changes and don't necessarily give you a good idea of what 
+    changed when comparing multiple files over some time. Automatic changes 
+    will also result in bugged code at each step, as changes may be saved mid
+    line, thus breaking any testability for the old code.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    In many coding cases, changing an item in one location (such as a function
+    input) will affect multiple files. When this is the case, it is important
+    to track all files at once. If you want to revert, it allows traceability
+    to all effected locations and improves your ability to manage versions.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log provides the commit history for the entire repository. get diff 
+    provides the differences between two specific commits, and identifies the
+    individual lines that changed for each version.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Version control ensures that old working copies of code are still 
+    available, thus giving you free reign to test new code. But be sure to save
+    frequently enough that commits are not too large to track what changed from
+    version to version!
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I am primarily interested in using Git to track changes to the BatchBuildr
+    app for my MeadMakr website. The code is built in Javascript/HTML/CSS, and
+    it has been difficult tracking changes and ensuring that I can revert and 
+    find bugs when they are introduced. Additionally, as a workflow process
+    version control systems are key to maintaining commonality and tracking of
+    changes across our systems. While Git isn't approved on our network, it 
+    will position me to better understand how VCS work and how to utilize their
+    capabilities for improved development practices.
