@@ -1,0 +1,19 @@
+What happens when you initialize a repository? Why do you need to do it?
+		
+		Initializing a repository creates a new .git directory within the 
+		repository that will store all of your git commit histories for the
+		directory. This is how you set up your first tracking of the 
+		directory. It must be done so that git knows what to track and when.
+		The initilization does not include the first commit, so the user
+		will need to be sure to create a new commit when ready to start 
+		tracking the files.
+
+How is the staging area different from the working directory and the 
+repository? What value do you think it offers?
+
+		The staging area allows you to explicitly identify what files and 
+		changes should be added to your git repository. This is more detailed
+		than working only with the information from the working directory,
+		and it allows increased control over the information being tracked.
+		You can thus ensure your commits are logically separated, even if
+		you have multiple files in the working directory that are changing.
