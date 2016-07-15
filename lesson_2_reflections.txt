@@ -26,3 +26,12 @@ logical change?
 		separate files. When you are ready to commit one of the other changes
 		in the working directory, you simply use git add to move that to the
 		changing area, then commit with a meaningful message.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+		Branches allow you to maintain a master set of code while 
+		experimenting with experimental features or different "modes" of the
+		game (such as language settings or easy/hard modes). Branches ensure
+		you can maintain core code development, and when the new branches are
+		complete or ready for testing, they can be merged with the master to 
+		bring the code base back together.
