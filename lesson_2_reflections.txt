@@ -17,3 +17,12 @@ repository? What value do you think it offers?
 		and it allows increased control over the information being tracked.
 		You can thus ensure your commits are logically separated, even if
 		you have multiple files in the working directory that are changing.
+
+How can you use the staging area to make sure you have one commit per 
+logical change?
+
+		The staging area allows you to add a single changed file to your 
+		commit and maintain the other changes in your working directory as
+		separate files. When you are ready to commit one of the other changes
+		in the working directory, you simply use git add to move that to the
+		changing area, then commit with a meaningful message.
