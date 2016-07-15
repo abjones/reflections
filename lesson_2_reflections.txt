@@ -35,3 +35,13 @@ What are some situations when branches would be helpful in keeping your history 
 		you can maintain core code development, and when the new branches are
 		complete or ready for testing, they can be merged with the master to 
 		bring the code base back together.
+
+How do the diagrams help you visualize the branch structure?
+
+		Diagrams easily identify where branch structures began and what 
+		commits have happened since the last branch. Further, it helps to 
+		identify what commits are available to each branch, and gives
+		context for the number of changes that have occurred on the local 
+		branch compared to the master or other branches. For readability,
+		the diagram puts this all into simple context vice pouring thru the 
+		git logs of all of the branches independently.
