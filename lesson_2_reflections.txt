@@ -45,3 +45,12 @@ How do the diagrams help you visualize the branch structure?
 		branch compared to the master or other branches. For readability,
 		the diagram puts this all into simple context vice pouring thru the 
 		git logs of all of the branches independently.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+		Merging two branches together collapses them into the same branch,
+		aligning all commits within each branch by time. You can further
+		delete the name of the secondary branch at this point, as all of the
+		commits are now represented by the merged branch. This allows all 
+		commits to be found via the main branch, as there are no longer any
+		secondary branches to track.
