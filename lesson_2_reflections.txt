@@ -54,3 +54,14 @@ What is the result of merging two branches together? Why do we represent it in t
 		commits are now represented by the merged branch. This allows all 
 		commits to be found via the main branch, as there are no longer any
 		secondary branches to track.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges 
+manually?
+
+		Automatic merging provides a simple path to resolve minor changes in the 
+		branches, but may create some issues where lines are changed that don't
+		reflect the intended change between branches. In this case, git notifies
+		you that the conflicts are present and allows for the user to correct the
+		issues within the merge process. Having to always manually merge branches
+		would be time consuming and inefficient when merges are simple and non-
+		conflicting.
