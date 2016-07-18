@@ -29,3 +29,11 @@ Describe the differences between forks, clones, and branches. When would you use
 		useful for demonstrating new features while maintaining a set of 
 		production code that is always working. Branches can then be merged into
 		the production (master) code when ready for testing.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+		This ensures that you can work off of the most recent changes and avoid
+		out-of-sync status while others are developing. You are kept up to date,
+		and ensure all local development maintains the most recent changes. Long
+		term, this would help avoid conflicts before they emerge at the merge 
+		step.
