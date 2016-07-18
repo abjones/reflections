@@ -5,3 +5,11 @@ When would you want to use a remote repository rather than keeping all your work
     some additional security for hard drive faults, backing it up "in the cloud" vice
     to your local workstation. 
     
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+		The remote repository has other users interacting with it. The changes
+		they make may not play nice with the new functionality that I am 
+		locally developing. Rather than deal with all of the changes now as a 
+		mini merge, I'd rather they stay present on the online repository until
+		I am either ready to commit and push my changes or commit and pull from
+		the repository to ensure compatibility.
