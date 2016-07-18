@@ -13,3 +13,19 @@ Why might you want to always pull changes manually rather than having Git automa
 		mini merge, I'd rather they stay present on the online repository until
 		I am either ready to commit and push my changes or commit and pull from
 		the repository to ensure compatibility.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+		Forks are clones that happen within the context of GitHub itself. Forks
+		are useful for copying repositories in the GitHub repository without
+		having to download to a local machine and push to your account directly.
+		Forks also build a user's and repository's reputation by counting the 
+		number of times it has been forked, giving a psuedo value to the repo.
+		Clones are simply copies of repositories into a new location. You can 
+		clone a GitHub repository to your local machine, clone a local repo to 
+		another local location, or clone your repo to GitHub. 
+		Branches occur when a user, starting from a commit, wants to create a 
+		different path for tracking changes other than the master path. This is
+		useful for demonstrating new features while maintaining a set of 
+		production code that is always working. Branches can then be merged into
+		the production (master) code when ready for testing.
