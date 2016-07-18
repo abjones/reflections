@@ -37,3 +37,13 @@ What is the benefit of having a copy of the last known state of the remote store
 		and ensure all local development maintains the most recent changes. Long
 		term, this would help avoid conflicts before they emerge at the merge 
 		step.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+		Collaboration would involve emails and messaging for all changes, with
+		files tranferred via email, hard drive, or disk. The changes would be 
+		difficult to identify without developing a readme for each change you
+		make, and communicating with the rest of the team would be near 
+		impossible to keep everyone up to date. The only "easier" part is that
+		it would be easier to forego notifying the team of all changes as they
+		were made, as conceivably only larger changes would ever be sent around.
